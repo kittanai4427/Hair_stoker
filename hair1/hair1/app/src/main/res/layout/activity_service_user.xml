@@ -1,0 +1,219 @@
+<com.google.android.material.circularreveal.coordinatorlayout.CircularRevealCoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1E1E1"
+    tools:context=".ServiceUser">
+
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="413dp"-->
+<!--        android:layout_height="114dp"-->
+<!--        android:background="@drawable/bannerhead"-->
+<!--        app:layout_anchorGravity="top|center">-->
+
+<!--        <ImageButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="14dp"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:background="@drawable/ic_baseline_arrow_back_24"-->
+<!--            android:backgroundTint="@color/white" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="70dp"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:text="นัดหมายอีกครั้ง"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="15dp"-->
+<!--            android:textStyle="bold" />-->
+
+
+    <!--        </FrameLayout>-->
+
+
+
+    <!--     <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+
+<!--         <LinearLayout-->
+<!--             android:layout_width="match_parent"-->
+<!--             android:layout_height="wrap_content"-->
+<!--             android:orientation="vertical" >-->
+
+             <TextView
+                 android:id="@+id/descriptionText1"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@id/titleText"
+                 android:fontFamily="sans-serif-light"
+                 android:gravity="center"
+                 android:text="Description Text"
+                 android:textSize="26sp"
+                 android:textStyle="italic" />
+
+             <TextView
+                 android:id="@+id/descriptionText"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@id/titleText"
+                 android:fontFamily="sans-serif-light"
+                 android:gravity="center"
+                 android:text="Description Text"
+                 android:textSize="26sp"
+                 android:textStyle="italic" />
+
+<!--             <TextView-->
+<!--                 android:id="@+id/titleText"-->
+<!--                 android:layout_width="match_parent"-->
+<!--                 android:layout_height="wrap_content"-->
+<!--                 android:layout_below="@id/another_imageView"-->
+<!--                 android:gravity="center"-->
+<!--                 android:text="Title Text"-->
+<!--                 android:textColor="@color/black"-->
+<!--                 android:textSize="28sp"-->
+<!--                 android:textStyle="bold" />-->
+
+<!--             <ImageView-->
+<!--                 android:id="@+id/another_imageView"-->
+<!--                 android:layout_width="150dp"-->
+<!--                 android:layout_height="150dp"-->
+<!--                 android:layout_centerHorizontal="true"-->
+<!--                 android:layout_marginTop="150dp"-->
+<!--                 android:src="@mipmap/ic_launcher" />-->
+<!--         </LinearLayout>-->
+
+<!--    </ScrollView>-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/another_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="242dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"
+            tools:layout_editor_absoluteX="-22dp"
+            tools:layout_editor_absoluteY="-28dp" />
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/rounded"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteY="126dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/titleText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:text="Title Text"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="30dp">
+
+                    <ImageView
+                        android:layout_width="31dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/frame_1" />
+
+                    <TextView
+                        android:id="@+id/titleText5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ที่อยู่ของร้าน"
+                        android:textSize="12dp"
+                        />
+
+                </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="30dp">
+
+                        <ImageView
+                            android:layout_width="31dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/path_96"
+                            android:layout_marginTop="10dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/Tel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="012-34567891"
+                            android:textSize="12dp"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="30dp">
+
+                        <ImageView
+                            android:layout_width="31dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/frame"
+                            android:layout_marginTop="10dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/Dtime"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="9dp"
+                            android:text="10.00 - 21.00 น."
+                            android:textSize="12dp"
+
+                             />
+
+                    </LinearLayout>
+
+                    <ListView
+                        android:id="@+id/listView"
+                        android:layout_width="match_parent"
+                        android:layout_height="529dp"
+                        android:layout_marginTop="20dp"></ListView>
+                </LinearLayout>
+
+            </ScrollView>
+        </FrameLayout>
+    </FrameLayout>
+
+</com.google.android.material.circularreveal.coordinatorlayout.CircularRevealCoordinatorLayout>

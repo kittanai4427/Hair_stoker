@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.coordinatorlayout.CircularRevealCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#32B768"
+    tools:context=".register_user">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/mitr_extralight"
+        android:text="สมัครสมาชิก"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/mitr_extralight"
+        android:text="กรุณากรอกข้อมูลและรายละเอียดให้ครบถ้วน"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        />
+
+    <ImageButton
+        android:id="@+id/btnback1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        android:backgroundTint="@color/white"
+        app:layout_anchor="@+id/btnback1"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/rounded">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/mitr_extralight"
+            android:text="ชื่อ - นามสกุล"
+            android:textSize="15dp" />
+
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/custom_input"
+            android:elevation="1dp"
+            android:fontFamily="@font/mitr_extralight"
+            android:hint="กรุณากรอกชื่อ - นามสกุล"
+            android:paddingLeft="15dp"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="130dp"
+            android:fontFamily="@font/mitr_extralight"
+            android:text="อีเมล"
+            android:textSize="15dp" />
+
+        <EditText
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/custom_input"
+            android:elevation="1dp"
+            android:ems="10"
+            android:fontFamily="@font/mitr_extralight"
+            android:hint=" กรุณากรอกอีเมล"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="2200dp"
+            android:fontFamily="@font/mitr_extralight"
+            android:text="อีเมล"
+            android:textSize="15dp" />
+
+        <EditText
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/custom_input"
+            android:elevation="1dp"
+            android:ems="10"
+            android:fontFamily="@font/mitr_extralight"
+            android:hint=" กรุณากรอกอีเมล"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="220dp"
+            android:fontFamily="@font/mitr_extralight"
+            android:text="รหัสผ่าน"
+            android:textSize="15dp" />
+
+        <EditText
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/custom_input"
+            android:elevation="1dp"
+            android:ems="10"
+            android:fontFamily="@font/mitr_extralight"
+            android:hint="กรุณากรอกรหัสผ่าน"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textSize="10dp" />
+
+        <Button
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="360dp"
+            android:background="@drawable/buttom"
+            android:backgroundTint="@color/button"
+            android:fontFamily="@font/mitr_extralight"
+            android:text="เสร็จสิ้น" />
+
+    </FrameLayout>
+
+
+</com.google.android.material.circularreveal.coordinatorlayout.CircularRevealCoordinatorLayout>

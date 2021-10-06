@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".HomeUser">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:background="@drawable/bannerhead"
+        app:layout_anchor="@+id/frameLayout"
+        app:layout_anchorGravity="top|center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <SearchView
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="290dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/search_bg"
+                android:drawableLeft="@drawable/ic_baseline_search_24"
+                android:ems="10"
+                android:fontFamily="@font/mitr_extralight"
+                android:hint="@android:string/search_go"
+                android:text="ค้นหาร้าน"
+                android:textColor="#FDFCFC"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="303dp"
+        android:layout_height="99dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bannerwallet"
+        android:fontFamily="@font/mitr_extralight">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/mitr_light"
+            android:text="ยอดเงินคงเหลือ" />
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:fontFamily="@font/mitr_light"
+            android:text="0 บาท"
+            android:textColor="@color/button"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/addpay1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/mitr_light"
+            android:text="เติมเงินเพิ่ม"
+            android:textColor="#43A047"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="46dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/money__2_" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="516dp"
+        android:layout_marginTop="185dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/mitr_light"
+            android:text="การบริการ"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="65dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/scissors_svgrepo_com__1_" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="95dp"
+            android:fontFamily="@font/mitr_light"
+            android:text="บริการตัดผม"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="65dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="160dp"
+            app:srcCompat="@drawable/hair_style_hairdryer_svgrepo_com" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="173dp"
+            android:layout_marginTop="95dp"
+            android:fontFamily="@font/mitr_light"
+            android:text="เสริมสวย"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="65dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/shampoo_bottle_svgrepo_com"
+            tools:ignore="ImageContrastCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="295dp"
+            android:layout_marginTop="95dp"
+            android:fontFamily="@font/mitr_light"
+            android:text="ผลิตภัณฑ์"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="310dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/mitr_light"
+            android:text="คำสั่งบริการล่าสุด"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/mitr_light"
+            android:text="ดูเพิ่มเติม"
+            android:textColor="#2E7D32"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp">
+
+            </ListView>
+        </FrameLayout>
+
+
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>
+
+
+
