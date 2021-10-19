@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical"
+    tools:context=".BookingCustomerFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:background="@drawable/bannerhead"
+        app:layout_anchor="@+id/frameLayout1"
+        app:layout_anchorGravity="top|center">
+
+        <ImageButton
+            android:id="@+id/btnhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_baseline_arrow_back_24"
+            android:backgroundTint="@color/white"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.08"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.543" />
+
+
+        <TextView
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:fontFamily="@font/mitr_light"
+            android:gravity="center"
+            android:text="หมายเลขการรับบริการ 1234567890hi"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="340dp"
+        android:layout_height="109dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bannerwallet"
+        android:fontFamily="@font/mitr">
+
+        <LinearLayout
+            android:layout_width="339dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="27dp"
+                android:layout_gravity="right"
+                android:background="@drawable/left_side"
+                android:fontFamily="@font/mitr_light"
+                android:gravity="center"
+                android:text="ผู้เรียกใช่บริการ"
+                android:textColor="@color/white"
+                android:textSize="13dp"
+                app:backgroundTint="@null" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="63dp"
+                    android:layout_height="62dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="6dp"
+                    app:srcCompat="@drawable/_41430916_323547716213714_8063163232219428235_n" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name_user"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mitr"
+                        android:text="ลูกค้าคนที่ 1"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="11dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/mitr_light"
+                        android:text="199 เกกีงาม ลาดกระบัง กรุงเทพมหานคร 105200 "
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/tell"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginLeft="11dp"
+                        android:fontFamily="@font/mitr"
+                        android:text="0871452231"
+                        android:textColor="#03A9F4"
+                        android:textSize="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="588dp"
+        android:layout_below="@+id/frameLayout1"
+        android:layout_marginTop="-2dp"
+        app:layout_constraintTop_toTopOf="@+id/frameLayout1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/money__1_" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/mitr_light"
+                            android:text="จ่ายให้ร้าน"
+                            android:textColor="@color/black"
+                            android:textSize="13dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="1dp"
+                            android:fontFamily="@font/mitr_light"
+                            android:text="50 บาท"
+                            android:textColor="@color/black"
+                            android:textSize="13dp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="16dp"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="|"
+                        android:textSize="50dp" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/receive" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/mitr_light"
+                            android:text="รายรับ"
+                            android:textColor="@color/black"
+                            android:textSize="13dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="1dp"
+                            android:fontFamily="@font/mitr_light"
+                            android:text="100 บาท"
+                            android:textColor="@color/black"
+                            android:textSize="13dp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/bannerwallet">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="29dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="329dp"
+                        android:layout_height="89dp"
+                        android:fontFamily="@font/mitr_light"
+                        android:orientation="horizontal"
+                        android:textColor="@color/black">
+
+                        <TextView
+                            android:layout_width="102dp"
+                            android:layout_height="25dp"
+                            android:layout_marginStart="15dp"
+                            android:fontFamily="@font/mitr_light"
+                            android:gravity="start|center"
+                            android:text="วันเวลาที่บริการ"
+                            android:textColor="@color/button"
+                            android:textSize="12dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="117dp"
+                            android:layout_height="25dp"
+                            android:fontFamily="@font/mitr_light"
+                            android:gravity="start|center"
+                            android:text="16 ตุลาคม 2564"
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:fontFamily="@font/mitr_light"
+                            android:gravity="start|center"
+                            android:text="เวลา 13.22 น."
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <!-- ส่วนแสดงข้อมูลที่อยู่-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/bookingUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="173dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="30dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="20dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="115dp"
+                        android:layout_marginTop="60dp"
+                        android:background="@drawable/cardview_row1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="80dp"
+                            android:layout_marginRight="30dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="33dp"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/money_svgrepo_com" />
+
+
+                                <TextView
+                                    android:layout_width="192dp"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mitr_light"
+                                    android:text="ค่ารับบริการที่ได้รับ"
+                                    android:textColor="@color/black" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mitr_light"
+                                    android:text="150.00 ฿"
+                                    android:textColor="@color/black" />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="133dp"
+                        android:background="@drawable/cardview1"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="30dp"
+                            android:orientation="horizontal">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mitr_light"
+                                    android:text="สรุปยอดทั้งสิ้น"
+                                    android:textColor="@color/black"
+                                    android:textSize="15dp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="223dp"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mitr_light"
+                                        android:text="ตัดผมชาย"
+                                        android:textColor="@color/black"
+                                        android:textSize="12dp" />
+
+
+                                    <TextView
+                                        android:layout_width="42dp"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mitr_light"
+                                        android:gravity="end"
+                                        android:text="150 ฿"
+                                        android:textColor="@color/black"
+                                        android:textSize="12dp" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+
+                                    <TextView
+                                        android:layout_width="223dp"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mitr_light"
+                                        android:text="ค่าบริการอื่นๆ"
+                                        android:textColor="@color/black"
+                                        android:textSize="12dp" />
+
+                                    <TextView
+                                        android:layout_width="42dp"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/mitr_light"
+                                        android:gravity="end"
+                                        android:text="0 ฿"
+                                        android:textColor="@color/black"
+                                        android:textSize="12dp" />
+
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/showmsg"
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/mitr_light"
+                    android:text="เลื่อนขวาเพื่อรับงาน"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+</RelativeLayout>

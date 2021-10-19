@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable-v24/bannerhead.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable-v24/bannerwallet.xml" value="0.1125" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable-v24/buttom.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable-v24/custom_input.xml" value="0.3828125" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable-v24/ic_baseline_arrow_back_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable-v24/ic_baseline_calendar_today_24.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable-v24/ic_baseline_expand_less_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable-v24/ic_baseline_expand_more_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable-v24/ic_baseline_home_24.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable-v24/ic_baseline_settings_24.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable-v24/rounded.xml" value="0.3828125" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable/booking_banner.xml" value="0.2203125" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable/btn1.xml" value="0.221875" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable/button_selector.xml" value="0.221875" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable/buttonday.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable/cardview.xml" value="0.3828125" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable/cardview1.xml" value="0.221875" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable/cardview_line.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable/cardview_row.xml" value="0.3828125" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable/cardview_row1.xml" value="0.221875" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable/left_side.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/drawable/left_side1.xml" value="0.221875" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/layout/activity_main.xml" value="0.13043478260869565" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/layout/each_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/layout/fragment_add__time.xml" value="0.33" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/layout/fragment_algorithm.xml" value="0.13043478260869565" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/layout/fragment_appointment__details.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/layout/fragment_appointment_user.xml" value="0.22" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/layout/fragment_booking_customer.xml" value="0.25" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/layout/fragment_course.xml" value="0.13043478260869565" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/layout/fragment_profile.xml" value="0.19435736677115986" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/layout/fragment_worknew.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/layout/nested_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mark/AndroidStudioProjects/Hairdresser_new/app/src/main/res/menu/bottom_menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
